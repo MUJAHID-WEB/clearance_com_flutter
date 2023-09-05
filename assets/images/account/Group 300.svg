@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.006" height="22" viewBox="0 0 22.006 22">
+  <g id="Group_300" data-name="Group 300" transform="translate(-298.997 -1000)">
+    <path id="icons8_logout_rounded_left" d="M15.853,8.691a.478.478,0,0,0-.329.145L11.741,12.62a.478.478,0,0,0,0,.761l3.783,3.783a.478.478,0,1,0,.676-.676l-3.01-3.01H23.515a.478.478,0,1,0,0-.957H13.191l3.01-3.01a.478.478,0,0,0-.347-.821Z" transform="translate(297.01 998)" fill="#CC3333"/>
+    <path id="icons8_logout_rounded_left-2" data-name="icons8_logout_rounded_left" d="M12.987,2a10.986,10.986,0,0,1,8.872,4.5.478.478,0,1,1-.771.566,10.043,10.043,0,1,0,0,11.869.478.478,0,1,1,.771.566A11,11,0,1,1,12.987,2Z" transform="translate(297.01 998)" fill="#CC3333"/>
+  </g>
+</svg>

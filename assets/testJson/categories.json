@@ -1,0 +1,288 @@
+{
+  "message": "Data Got!",
+  "data": [
+    {
+      "id": 1,
+      "name": "main",
+      "slug": "test",
+      "icon": "http://127.0.0.1:8000/storage/category/2022-04-21-626101a4c0172.png",
+      "parent_id": 0,
+      "position": 0,
+      "childes": [
+        {
+          "id": 2,
+          "name": "sub11",
+          "slug": "cate1",
+          "icon": "http://127.0.0.1:8000/storage/category/",
+          "parent_id": 1,
+          "position": 1,
+          "childes": [
+            {
+              "id": 4,
+              "name": "sub12",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+
+            {
+              "id": 4,
+              "name": "sub12",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub12",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+
+            {
+              "id": 4,
+              "name": "sub12",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub12",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+
+            {
+              "id": 4,
+              "name": "sub12",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "sub1",
+          "slug": "cat2",
+          "icon": "http://127.0.0.1:8000/storage/category/",
+          "parent_id": 1,
+          "position": 1,
+          "childes": [
+            {
+              "id": 4,
+              "name": "sub12",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub2",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub2",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            }
+          ]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 1,
+      "name": "main",
+      "slug": "test",
+      "icon": "http://127.0.0.1:8000/storage/category/2022-04-21-626101a4c0172.png",
+      "parent_id": 0,
+      "position": 0,
+      "childes": [
+        {
+          "id": 2,
+          "name": "sub1",
+          "slug": "cate1",
+          "icon": "http://127.0.0.1:8000/storage/category/",
+          "parent_id": 1,
+          "position": 1,
+          "childes": [
+            {
+              "id": 4,
+              "name": "sub22",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub22",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub22",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "sub1",
+          "slug": "cat2",
+          "icon": "http://127.0.0.1:8000/storage/category/",
+          "parent_id": 1,
+          "position": 1,
+          "childes": [
+            {
+              "id": 4,
+              "name": "sub2",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub2",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub2",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            }
+          ]
+        }
+      ]
+    } ,
+    {
+      "id": 1,
+      "name": "main",
+      "slug": "test",
+      "icon": "http://127.0.0.1:8000/storage/category/2022-04-21-626101a4c0172.png",
+      "parent_id": 0,
+      "position": 0,
+      "childes": [
+        {
+          "id": 2,
+          "name": "sub1",
+          "slug": "cate1",
+          "icon": "http://127.0.0.1:8000/storage/category/",
+          "parent_id": 1,
+          "position": 1,
+          "childes": [
+            {
+              "id": 4,
+              "name": "sub22",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub22",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub22",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "sub1",
+          "slug": "cat2",
+          "icon": "http://127.0.0.1:8000/storage/category/",
+          "parent_id": 1,
+          "position": 1,
+          "childes": [
+            {
+              "id": 4,
+              "name": "sub2",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub2",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            },
+            {
+              "id": 4,
+              "name": "sub2",
+              "slug": "cate2",
+              "icon": "http://127.0.0.1:8000/storage/category/",
+              "parent_id": 2,
+              "position": 2,
+              "childes": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.619" height="21" viewBox="0 0 22.619 21">
+  <g id="Group_323" data-name="Group 323" transform="translate(-47.155 -126)">
+    <path id="icons8_box" d="M1,3V7.873h.812v13.4H19.68V7.873h.812V3Zm.812.812H19.68V7.061H1.812Zm.812,4.061H18.868V20.462H2.624ZM7.7,9.5a1.421,1.421,0,0,0,0,2.843h6.091a1.421,1.421,0,0,0,0-2.843Zm0,.812h6.091a.609.609,0,0,1,0,1.218H7.7a.609.609,0,0,1,0-1.218Z" transform="translate(46.155 123)" fill="#CC3333"/>
+    <ellipse id="Ellipse_43" data-name="Ellipse 43" cx="4.537" cy="4.537" rx="4.537" ry="4.537" transform="translate(60.7 137.925)" fill="#fff"/>
+    <path id="Ellipse_43_-_Outline" data-name="Ellipse 43 - Outline" d="M4.563.507A4.056,4.056,0,1,0,8.618,4.563,4.06,4.06,0,0,0,4.563.507m0-.507A4.563,4.563,0,1,1,0,4.563,4.563,4.563,0,0,1,4.563,0Z" transform="translate(60.472 137.692)" fill="#CC3333"/>
+    <path id="icons8_returned_mail" d="M31.82,29.99a.255.255,0,0,1,.186.434l-1.054,1.1h2.4a1.786,1.786,0,0,1,0,3.571H30.8v-.51h2.551a1.275,1.275,0,0,0,0-2.551h-2.4l1.054,1.1a.255.255,0,1,1-.368.353L30,31.778l1.638-1.707A.255.255,0,0,1,31.82,29.99Z" transform="translate(32.5 109.223)" fill="#CC3333"/>
+  </g>
+</svg>
