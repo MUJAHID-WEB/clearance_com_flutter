@@ -28,7 +28,6 @@ import 'core/cache/cache.dart';
 import 'core/error_screens/internet_error.dart';
 import 'core/main_functions/main_funcs.dart';
 import 'core/shared_widgets/shared_widgets.dart';
-import 'firebase_options.dart';
 import 'l10n/l10n.dart';
 import 'modules/auth_screens/cubit/cubit_auth.dart';
 import 'modules/auth_screens/guest_login_screen.dart';
@@ -42,6 +41,9 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'modules/main_layout/sub_layouts/main_payment/cubit/cubit_payment.dart';
 import 'modules/main_layout/sub_layouts/splash/splash_screen.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
+
+import 'dart:async';
+import 'firebase_options.dart';
 
 
 void mainAppInitialize() async {
@@ -121,7 +123,6 @@ Future<void> _handleMessage(RemoteMessage message) async {
     if (notification != null && android != null) {
       const AndroidNotificationChannel channel = AndroidNotificationChannel(
         'notifications_high_importance_channel',
-        'High Importance Notifications',
         'High Importance Notifications',
         importance: Importance.max,
       );
@@ -463,13 +464,11 @@ class NotificationService {
     logg('viewing local notification');
     logg('channelId:' + channelId);
     logg('channelName:' + channelName);
-    logg('channelName:' + channelDescription);
     logg('message:' + notification.toString());
     logg('viewing local notification');
     AndroidNotificationDetails androidDetails = AndroidNotificationDetails(
       channelId,
       channelName,
-      channelDescription,
       enableLights: true,
       enableVibration: true,
       priority: Priority.high,
@@ -485,7 +484,6 @@ class NotificationService {
     logg('showing');
     const AndroidNotificationChannel channel = AndroidNotificationChannel(
       'notifications_high_importance_channel',
-      'High Importance Notifications',
       'High Importance Notifications',
       importance: Importance.max,
     );

@@ -26,7 +26,18 @@ dependencies:
   flutter_localizations:                          
     sdk: flutter                                 
   intl: ^0.18.1                                   
-  get_it: ^7.6.4                                 
+  get_it: ^7.6.4       
+  flutter_svg: ^2.0.7  
+  firebase_analytics: ^10.4.5
+  flutter_local_notifications: ^15.1.1
+  firebase_messaging: ^14.6.7
+  conditional_builder_null_safety: ^0.0.6
+  firebase_core: ^2.15.1   
+  fluttertoast: ^8.2.2
+  store_redirect: ^2.0.1
+  top_modal_sheet: ^2.0.1     
+  connectivity_plus: ^4.0.2
+  device_info_plus: ^9.0.3                
 
 
 
