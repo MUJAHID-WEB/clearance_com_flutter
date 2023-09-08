@@ -7,7 +7,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:store_redirect/store_redirect.dart';
+//import 'package:store_redirect/store_redirect.dart';
 import 'package:top_modal_sheet/top_modal_sheet.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../styles_colors/styles_colors.dart';
@@ -120,10 +120,10 @@ showVersionDialog(context) async {
 }
 
 _launchURL() {
-  StoreRedirect.redirect(
-    androidAppId: 'ae.clearance.app',
-    iOSAppId: '1637100307',
-  );
+  // StoreRedirect.redirect(
+  //   androidAppId: 'ae.clearance.app',
+  //   iOSAppId: '1637100307',
+  // );
 }
 
 showTopModalSheetErrorLoginRequired(BuildContext context) {

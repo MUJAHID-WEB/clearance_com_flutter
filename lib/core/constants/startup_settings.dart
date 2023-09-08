@@ -4,7 +4,7 @@ import 'package:clearance/core/cache/cache.dart';
 import 'dart:convert' as convert;
 
 import 'package:flutter/services.dart';
-import 'package:image_downloader/image_downloader.dart';
+//import 'package:image_downloader/image_downloader.dart';
 
 import '../../models/api_models/starting_setting_model.dart';
 import '../main_functions/main_funcs.dart';
@@ -115,17 +115,17 @@ Future<String> changeSvgColor(String svgPath) async {
 }
 
 downloadImage({required String imageName , required String imageUrl})async{
-  try {
-    logg('fetch image\n');
-    var imageId = await ImageDownloader.downloadImage(imageUrl , destination: AndroidDestinationType.custom(directory: 'clearance_images')
-      ..inExternalFilesDir()
-      ..subDirectory("clearance_images/$imageName.png"));
-    if (imageId == null) {
-    }
-    logg('image id :  ' + imageId!);
-    String? path = await ImageDownloader.findPath(imageId );
-    CacheHelper.saveData(key: imageName, value: path);
-    logg('path : '  + path!);
-  }  catch (error) {
-  }
+  // try {
+  //   logg('fetch image\n');
+  //   var imageId = await ImageDownloader.downloadImage(imageUrl , destination: AndroidDestinationType.custom(directory: 'clearance_images')
+  //     ..inExternalFilesDir()
+  //     ..subDirectory("clearance_images/$imageName.png"));
+  //   if (imageId == null) {
+  //   }
+  //   logg('image id :  ' + imageId!);
+  //   String? path = await ImageDownloader.findPath(imageId );
+  //   CacheHelper.saveData(key: imageName, value: path);
+  //   logg('path : '  + path!);
+  // }  catch (error) {
+  // }
 }

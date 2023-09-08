@@ -28,6 +28,7 @@ import 'core/cache/cache.dart';
 import 'core/error_screens/internet_error.dart';
 import 'core/main_functions/main_funcs.dart';
 import 'core/shared_widgets/shared_widgets.dart';
+import 'firebase_options.dart';
 import 'l10n/l10n.dart';
 import 'modules/auth_screens/cubit/cubit_auth.dart';
 import 'modules/auth_screens/guest_login_screen.dart';
@@ -41,9 +42,9 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'modules/main_layout/sub_layouts/main_payment/cubit/cubit_payment.dart';
 import 'modules/main_layout/sub_layouts/splash/splash_screen.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
 
 import 'dart:async';
-//import 'firebase_options.dart';
 
 
 void mainAppInitialize() async {
@@ -51,9 +52,14 @@ void mainAppInitialize() async {
   await CacheHelper.init();
   await MainDioHelper.init();
     setStartingSettings();
+
+  // Initialize the primary Firebase app (if you haven't already)
+  await Firebase.initializeApp();
+
+  // Initialize the secondary Firebase app with custom options
   await Firebase.initializeApp(
     name: 'clearance',
-    //options: DefaultFirebaseOptions.currentPlatform,
+    options: DefaultFirebaseOptions.currentPlatform,
   ).then((value) {
     logg('firebase initialized.... response value:' + value.toString());
 
@@ -79,6 +85,10 @@ void mainAppInitialize() async {
       ],
       coupon: '10PERCENTOFF');
 }
+
+
+
+
 
 Future<void> setupInteractedMessage() async {
   FirebaseMessaging messaging = FirebaseMessaging.instance;
