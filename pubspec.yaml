@@ -37,7 +37,30 @@ dependencies:
   store_redirect: ^2.0.1
   top_modal_sheet: ^2.0.1     
   connectivity_plus: ^4.0.2
-  device_info_plus: ^9.0.3                
+  device_info_plus: ^9.0.3   
+  dio: ^5.3.2
+  firebase_auth: ^4.9.0
+  flutter_countdown_timer: ^4.1.0
+  intl_phone_number_input: ^0.7.3+1
+  badges: ^3.1.2
+  persistent_bottom_nav_bar: ^5.0.2
+  carousel_slider: ^4.2.1
+  flutter_html: ^3.0.0-beta.2   
+  flutter_rating_bar: ^4.0.1    
+  path_provider: ^2.1.1     
+  screenshot: ^2.1.0
+  share_plus: ^7.1.0
+  cached_network_image: ^3.2.3
+  filter_list: ^1.0.2
+  modal_bottom_sheet: ^2.1.2
+  country_picker: ^2.0.21
+  restart_app: ^1.2.1
+  pinput: ^3.0.1
+  shimmer: ^3.0.0
+  like_button: ^2.0.5
+  webview_flutter: ^4.2.4
+  google_sign_in: ^6.1.5
+  page_transition: ^2.0.9
 
 
 

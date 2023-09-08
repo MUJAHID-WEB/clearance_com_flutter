@@ -43,7 +43,7 @@ import 'modules/main_layout/sub_layouts/splash/splash_screen.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 
 import 'dart:async';
-import 'firebase_options.dart';
+//import 'firebase_options.dart';
 
 
 void mainAppInitialize() async {
@@ -53,7 +53,7 @@ void mainAppInitialize() async {
     setStartingSettings();
   await Firebase.initializeApp(
     name: 'clearance',
-    options: DefaultFirebaseOptions.currentPlatform,
+    //options: DefaultFirebaseOptions.currentPlatform,
   ).then((value) {
     logg('firebase initialized.... response value:' + value.toString());
 

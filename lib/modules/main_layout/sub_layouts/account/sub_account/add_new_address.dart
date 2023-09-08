@@ -1,8 +1,6 @@
 import 'package:clearance/core/cache/cache.dart';
 import 'package:clearance/core/main_cubits/cubit_main.dart';
-import 'package:country_pickers/country.dart';
-import 'package:country_pickers/country_picker_dropdown.dart';
-import 'package:country_pickers/country_pickers.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -167,29 +165,29 @@ class _AddNewAddressState extends State<AddNewAddress> {
                               DefaultContainer(
                                 borderColor: const Color(0xffa4c4f4),
                                 radius: 11.0.sp,
-                                childWidget: Padding(
-                                  padding: const EdgeInsets.symmetric(horizontal: 2*defaultHorizontalPadding),
-                                  child: CountryPickerDropdown(
-                                    initialValue: 'AE',
-                                    isExpanded: true,
-                                    dropdownColor: Colors.white,
-                                    itemBuilder: _buildDropdownItem,
-                                    itemFilter: (c) {
-                                      return mainCubit
-                                          .configModel!.data!.countries!
-                                          .map((e) => e.iso)
-                                          .contains(c.isoCode);
-                                    },
-                                    sortComparator: (Country a, Country b) =>
-                                        a.isoCode.compareTo(b.isoCode),
-                                    onValuePicked: (Country country) {
-                                      logg(country.name);
-                                      countryController.text = country.name;
-                                      logg('new controller name:' +
-                                          countryController.text);
-                                    },
-                                  ),
-                                ),
+                                // childWidget: Padding(
+                                //   padding: const EdgeInsets.symmetric(horizontal: 2*defaultHorizontalPadding),
+                                //   child: CountryPickerDropdown(
+                                //     initialValue: 'AE',
+                                //     isExpanded: true,
+                                //     dropdownColor: Colors.white,
+                                //     itemBuilder: _buildDropdownItem,
+                                //     itemFilter: (c) {
+                                //       return mainCubit
+                                //           .configModel!.data!.countries!
+                                //           .map((e) => e.iso)
+                                //           .contains(c.isoCode);
+                                //     },
+                                //     sortComparator: (Country a, Country b) =>
+                                //         a.isoCode.compareTo(b.isoCode),
+                                //     onValuePicked: (Country country) {
+                                //       logg(country.name);
+                                //       countryController.text = country.name;
+                                //       logg('new controller name:' +
+                                //           countryController.text);
+                                //     },
+                                //   ),
+                                // ),
                               ),
                               SizedBox(
                                 height: 10.h,
@@ -339,66 +337,29 @@ class _AddNewAddressState extends State<AddNewAddress> {
                 },
               ),
 
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
             ],
           ),
         ));
   }
 }
 
-Widget _buildDropdownItem(Country country) => Container(
+// Widget _buildDropdownItem(Country country) => Container(
       
 
-      child: Row(
-        mainAxisSize: MainAxisSize.max,
-        children: <Widget>[
-          CountryPickerUtils.getDefaultFlagImage(country),
-          SizedBox(
-            width: 8.0,
-          ),
-          SizedBox(
-            width: 0.5.sw,
-            child: Text(
-              "${country.name}",
-              overflow: TextOverflow.ellipsis,
-            ),
-          ),
-        ],
-      ),
-    );
+//       child: Row(
+//         mainAxisSize: MainAxisSize.max,
+//         children: <Widget>[
+//           CountryPickerUtils.getDefaultFlagImage(country),
+//           SizedBox(
+//             width: 8.0,
+//           ),
+//           SizedBox(
+//             width: 0.5.sw,
+//             child: Text(
+//               "${country.name}",
+//               overflow: TextOverflow.ellipsis,
+//             ),
+//           ),
+//         ],
+//       ),
+//     );
